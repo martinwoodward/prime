@@ -19,5 +19,5 @@ jobs:
       run: dotnet build prime --configuration Release
     
     - name: Test with dotnet
-      run: dotnet test prime --collect "Code coverage"
+      run: dotnet test prime
       
