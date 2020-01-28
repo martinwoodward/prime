@@ -16,4 +16,8 @@ jobs:
         dotnet-version: 2.2.108
 
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build prime --configuration Release
+    
+    - name: Test with dotnet
+      run: dotnet test prime --collect "Code coverage"
+      
