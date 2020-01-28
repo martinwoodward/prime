@@ -34,7 +34,7 @@ jobs:
       run: dotnet test prime
     
     - name: Inspect contexts
-        run: |
+      run: |
           echo "The github context is:"
           echo "${{ toJson(github) }}"
           echo ""
