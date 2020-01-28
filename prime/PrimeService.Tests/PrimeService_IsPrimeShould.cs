@@ -39,6 +39,7 @@ namespace Prime.UnitTests.Services
         } 
  
         [Theory] 
+        [InlineData(3)]
         [InlineData(4)] 
         [InlineData(6)] 
         [InlineData(8)] 
