@@ -17,3 +17,6 @@ jobs:
 
     - name: Build with dotnet
       run: dotnet build prime --configuration Release
+    
+    - name: Test
+      run: dotnet test prime
